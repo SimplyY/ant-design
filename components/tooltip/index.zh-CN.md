@@ -41,4 +41,6 @@ title: Tooltip
 
 ## 注意
 
-请确保 `Tooltip` 的子元素能接受 `onMouseEnter`、`onMouseLeave`、`onFocus`、`onClick` 事件。
+- 请确保 `Tooltip` 的子元素能接受 `onMouseEnter`、`onMouseLeave`、`onFocus`、`onClick` 事件；
+- 请注意 Tooltip 的 z-index(默认1060)是否足够大，不会被其他元素遮住。
+
